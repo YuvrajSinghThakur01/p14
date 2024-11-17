@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Travel Booking Form</h2>
+        <form action="#" method="post">
+            <label for="destination">Destination:</label>
+            <select id="destination" name="destination">
+                <option value="Delhi">Delhi</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Agra">Agra</option>
+                <option value="Banglore">Banglore</option>
+                <option value="Keral">Keral</option>
+            </select>
+
+            <label for="departureDate">Departure Date:</label>
+            <input type="date" id="departureDate" name="departureDate">
+
+            <label for="returnDate">Return Date:</label>
+            <input type="date" id="returnDate" name="returnDate">
+
+            <label for="travelClass">Travel Class:</label>
+            <select id="travelClass" name="travelClass">
+                <option value="economy">Economy</option>
+                <option value="business">Business</option>
+                <option value="first">First</option>
+            </select>
+
+            <label for="passengers">Number of Passengers:</label>
+            <input type="number" id="passengers" name="passengers" min="1" value="1">
+
+            <button id="button">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
